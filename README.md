@@ -6,8 +6,7 @@ A small program to open an xCode 6 simluator.
 ###Install
 
 ```
-curl https://raw.githubusercontent.com/ajmccall/showSim/master/showSim > showSim
-chmod 755 showSim
+curl https://raw.githubusercontent.com/ajmccall/showSim/master/showSim > showSim && chmod 755 showSim
 ./showSim
 ```
 
