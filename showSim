@@ -1,0 +1,2 @@
+#!/bin/sh
+xcrun simctl list | grep Boot | tr -d '()' | awk {'print "open ~/Library/Developer/CoreSimulator/Devices/"$3"/data/Containers/Data/Application"'} | sh
